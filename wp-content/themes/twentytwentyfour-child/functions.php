@@ -23,6 +23,7 @@ add_action('init', function(){
             'not_found' => __('No books found in trash', 'txtdomain'),
             'all_items'=> __('All books', 'txtdomain'),
             'insert_into_item'=> __('Insert into book', 'txtdomain'),
+            'taxonomies'=> ['book_author']
         ]
     ])
 })
