@@ -25,5 +25,5 @@ add_action('init', function(){
             'insert_into_item'=> __('Insert into book', 'txtdomain'),
             'taxonomies'=> ['book_author']
         ]
-    ])
+        ])
 })
